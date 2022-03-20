@@ -1,0 +1,38 @@
+{
+  "name": "igdl",
+  "version": "0.0.1",
+  "description": "Instagram Image & Video Downloader Using NodeJS",
+  "author": "ipincamp <support@nur-arifin.my.id>",
+  "private": true,
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ipincamp/igdl/issues"
+  },
+  "homepage": "https://github.com/ipincamp/igdl#readme",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.3.0"
+  },
+  "scripts": {
+    "lint": "eslint --fix --ext .js .",
+    "start": "node index.js",
+    "test": "pm2 start . --watch"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipincamp/igdl.git"
+  },
+  "keywords": [
+    "ig-downloader",
+    "insta-saver",
+    "instagram"
+  ],
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "pm2": "^5.2.0"
+  }
+}
