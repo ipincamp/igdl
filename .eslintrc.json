@@ -12,5 +12,12 @@
         "sourceType": "module"
     },
     "rules": {
+        "consistent-return": "off",
+        "eqeqeq": "off",
+        "import/extensions": "off",
+        "import/prefer-default-export": "off",
+        "linebreak-style": ["error", "windows"],
+        "no-param-reassign": "off",
+        "no-useless-catch": "off"
     }
 }
