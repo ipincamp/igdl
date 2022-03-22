@@ -12,12 +12,14 @@
         "sourceType": "module"
     },
     "rules": {
+        "camelcase": "off",
         "consistent-return": "off",
         "eqeqeq": "off",
         "import/extensions": "off",
         "import/prefer-default-export": "off",
         "linebreak-style": ["error", "windows"],
         "no-param-reassign": "off",
+        "no-underscore-dangle": "off",
         "no-useless-catch": "off"
     }
 }
