@@ -20,6 +20,8 @@
         "linebreak-style": ["error", "windows"],
         "no-param-reassign": "off",
         "no-underscore-dangle": "off",
-        "no-useless-catch": "off"
+        "no-unsafe-finally": "warn",
+        "no-useless-catch": "off",
+        "prefer-const": "off"
     }
 }
