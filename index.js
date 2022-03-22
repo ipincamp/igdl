@@ -13,6 +13,8 @@ import funcREQ from './src/events/req.js';
 const apps = express();
 const port = process.env.PORT || 8000;
 
+apps.use(express.static('./src/public'));
+
 funcAPI(apps);
 funcREQ(apps);
 funcGET(apps);

@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px) {
+  .main-container {
+    padding: 100px 5px;
+  }
+  .content-container {
+    padding: 20px 10px;
+  }
+
+  section.download input {
+    min-width: 98%;
+  }
+
+  section.download button {
+    height: 2em;
+    width: 90px;
+  }
+}
